@@ -62,8 +62,6 @@ class pmode_pulsation(object):
             additional parameters describing the studied g-mode.
 
             Parameters:
-                gyre_dir:           string
-                                    The GYRE 5.x or 6.x installation directory.
                 puls_freq:          astropy quantity
                                     (observed) cyclic pulsation frequency in the
                                     inertial reference frame

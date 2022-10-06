@@ -12,7 +12,6 @@ import astropy.units as au
 
 from star import spherical_star as star
 from transforms import spherical_to_cartesian
-import matplotlib.pyplot as plt
 
 class circular_binary(object):
 
