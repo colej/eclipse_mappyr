@@ -1,0 +1,29 @@
+general:
+  main_dir: /lhome/colej/python/tidal-perturbation-simulations/
+binary:
+  P_orb: 1.8805
+  incl_deg: 85.
+  third_light: 0.2
+primary:
+  mass: 2.6
+  radius: 2.8
+  ld_coeff: 0.4919
+  light_contribution: 0.75
+  obliquity: 90.
+secondary:
+  mass: 0.8
+  radius: 2.6
+  ld_coeff: 0.6849
+  light_contribution: 0.05
+  obliquity: 0.
+pulsation:
+  pulsating_star: primary
+  mode_type: p
+  puls_freq: 32.9
+  puls_amp: 2.0
+  lval: 2
+  mval: -1
+  distortion_factor: 1.
+simulation:
+  N_forb_cycles: 14
+  Nsample_per_cycle: 250
