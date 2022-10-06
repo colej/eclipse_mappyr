@@ -1,3 +1,5 @@
+import numpy as np
+
 def spherical_to_cartesian(theta,phi,rad=None):
     """
         Convert spherical coordinates to cartesian coordinates.
