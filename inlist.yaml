@@ -1,5 +1,5 @@
 general:
-  main_dir: /lhome/colej/python/tidal-perturbation-simulations/
+  main_dir: /lhome/colej/python/eb_mapping/
 binary:
   P_orb: 1.8805
   incl_deg: 85.
