@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# File: gmode_pulsation.py
+# File: pmode_pulsation.py
 # Author: Cole Johnston <cole.johnston@ru.nl>
 # Coauthor: Timothy Van Reeth <timothy.vanreeth@kuleuven.be>
 # License: GPL-3+
