@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 #
-# File: pmode_pulsation.py
+# File: pulsation.py
 # Author: Cole Johnston <cole.johnston@ru.nl>
 # Coauthor: Timothy Van Reeth <timothy.vanreeth@kuleuven.be>
 # License: GPL-3+
 # Description: Module describing the basic properties of a p-mode pulsation
 
 
-import numpy as np
 import sys
+import numpy as np
 import astropy.units as au
 import astropy.constants as ac
 
