@@ -2,6 +2,7 @@ from setuptools import setup, find_packages
 import numpy as np
 
 packages = find_packages(where='src')
+print(packages)
 
 setup(
     name='eclipse_mappyr',
@@ -16,6 +17,7 @@ setup(
         'numpy>=1.25.0',
         'matplotlib>=3.7.0',
         'pandas>=2.2.0',
+        'astropy>=5.3.4'
     ],
     classifiers=[
         # Choose appropriate classifiers from:
