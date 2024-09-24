@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 #
 # File: binary.py
-# Author: Timothy Van Reeth <timothy.vanreeth@kuleuven.be>
-# Coauthor: Cole Johnston <cole.johnston@ru.nl>
+# Authors: Timothy Van Reeth <timothy.vanreeth@kuleuven.be> ; Cole Johnston <colej@mpa-garching.mpg.de>
 # License: GPL-3+
 # Description: Module that builds a basic model of a circular, synchronised
 #              binary, based on a subset of basic input parameters.
