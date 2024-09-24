@@ -1,5 +1,5 @@
 general:
-  main_dir: /lhome/colej/python/eb_mapping/
+  main_dir: /home/colej/repos/eclipse_mappyr/models/
 binary:
   P_orb: 1.8805
   incl_deg: 85.
@@ -9,7 +9,7 @@ primary:
   radius: 2.8
   ld_coeff: 0.4919
   light_contribution: 0.75
-  obliquity: 90.
+  obliquity: 0.
 secondary:
   mass: 0.8
   radius: 2.6
@@ -21,6 +21,7 @@ pulsation:
   mode_type: p
   puls_freq: 32.9
   puls_amp: 2.0
+  puls_phase: 0.0
   lval: 2
   mval: -1
   distortion_factor: 1.
