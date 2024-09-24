@@ -9,4 +9,7 @@
 *.~
 *.png
 
-__pycache__/
+src/eclipse_mappyr/__pycache__/
+*.egg-info
+build/
+dist/
