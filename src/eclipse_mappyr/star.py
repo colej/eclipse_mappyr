@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 #
 # File: star.py
-# Author: Timothy Van Reeth <timothy.vanreeth@kuleuven.be>
+# Authors: Timothy Van Reeth <timothy.vanreeth@kuleuven.be> ; Cole Johnston <colej@mpa-garching.mpg.de>
 # License: GPL-3+
-# Coauthor: Cole Johnston <cole.johnston@ru.nl>
 # Description: Module that builds a stellar model from a set of base parameters
 
 import numpy as np
@@ -15,10 +14,7 @@ class spherical_star(object):
 
     def __init__(self, Mstar, Rstar, incl_deg, frot, ld_coeff=0.6):
         """
-            Reading in a stellar model from a GYRE input file (calculated with MESA),
-            and setting other (custom) parameter values, including the inclination
-            angle (in degrees) and the cyclic rotation frequency (in d^{-1}) of the
-            star.
+            Building a spherical stellar model from a set of base parameters.
 
             Parameters:
                 Mstar:             astropy quantity
@@ -292,8 +288,8 @@ class spherical_star(object):
                            relative intensity of the observed stellar disk
         """
 
-        ld = 1. - self._ld_coeff * (1. - np.cos(self.theta_incl))
-        return ld
+        limb_darkened_intensity = 1. - self._ld_coeff * (1. - np.cos(self.theta_incl))
+        return limb_darkened_intensity
 
 
 
@@ -322,3 +318,7 @@ class spherical_star(object):
         phv = 2. * np.pi * self._Rstar.to(u.km) * np.sin(self._theta) * self.frot.to(u.Hz)
 
         return radv, thv, phv
+
+    def flux(self, time):
+        # NOTE: this is a dummy function that should be replaced by the actual flux calculation
+        pass
