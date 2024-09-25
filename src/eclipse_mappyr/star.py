@@ -284,7 +284,7 @@ class spherical_star(object):
                 self:      stellar_model object
 
             Returns:
-                ld:        numpy array
+                limb_darkened_intensity:        numpy array
                            relative intensity of the observed stellar disk
         """
 
